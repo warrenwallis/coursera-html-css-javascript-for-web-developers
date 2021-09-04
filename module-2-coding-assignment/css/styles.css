@@ -8,19 +8,43 @@ h1 {
     text-align: center;
 }
 
-section {
+.content {
     border: 1px solid black;
-    position: relative;
+    background-color: gray;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-p.box {
+.container {
+    padding: 10px;
+}
+
+.box {
     border: 1px solid black;
-    margin-right: 0px;
-    margin-left: auto;
     text-align: center;
-    position: relative;
-    top: -17px;
+    font-size: 24px;
     width: 100px;
+    margin-right: -1px;
+    margin-left: auto;
+    margin-top: -1px;
+    margin-bottom: auto;
+}
+
+.content:nth-child(1) {
+    padding-left: 10px;
+}
+
+#chicken {
+    background-color: pink;
+}
+
+#beef {
+    background-color: maroon;
+    color: white;
+}
+
+#sushi {
+    background-color: tan;
 }
 
 /* Simple Responsive Framework */
