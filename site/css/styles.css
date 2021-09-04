@@ -1,0 +1,81 @@
+/* Define Base Styles*/
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.content {
+    border: 1px solid black;
+    background-color: gray;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    padding: 10px;
+}
+
+.box {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 24px;
+    width: 100px;
+    margin-right: -1px;
+    margin-left: auto;
+    margin-top: -1px;
+    margin-bottom: auto;
+}
+
+.content:nth-child(1) {
+    padding-left: 10px;
+}
+
+#chicken {
+    background-color: pink;
+}
+
+#beef {
+    background-color: maroon;
+    color: white;
+}
+
+#sushi {
+    background-color: tan;
+}
+
+/* Simple Responsive Framework */
+
+.row {
+    width: 100%;
+}
+
+/* Define Media Queries*/
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
