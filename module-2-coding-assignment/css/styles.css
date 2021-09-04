@@ -10,12 +10,17 @@ h1 {
 
 section {
     border: 1px solid black;
+    position: relative;
 }
 
-section > div {
+p.box {
     border: 1px solid black;
-    margin-right: auto;
+    margin-right: 0px;
     margin-left: auto;
+    text-align: center;
+    position: relative;
+    top: -17px;
+    width: 100px;
 }
 
 /* Simple Responsive Framework */
@@ -37,6 +42,10 @@ section > div {
     .col-md-6 {
         float: left;
         width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
     }
 }
 
